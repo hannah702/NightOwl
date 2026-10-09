@@ -1,0 +1,10 @@
+{
+  "name": "NightOwl - Safety-Aware Walking Navigation",
+  "description": "NightOwl is a walking navigation tool that scores and ranks routes by street lighting, pedestrian activity, open havens, and crowdsourced safety reports.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

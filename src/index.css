@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Dark-mode filter applied strictly to OSM tile pane with forced GPU compositing */
+.map-dark .leaflet-tile-pane,
+.dark-tiles .leaflet-tile-pane {
+  filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.95);
+  will-change: filter;
+  transform: translateZ(0);
+}
